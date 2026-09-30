@@ -64,5 +64,5 @@ ORDER BY mes;
 -- Bloque de hallazgos
 -- 1) En marzo (mes 3) se facturaron $6444, por debajo del promedio mensual.
 -- 2) El producto con mayor facturación fue el id_producto 1.
--- 3) El cliente con más pedidos fue el id_cliente 2, considerado recurrente.
+-- 3) Todos los clientes tienen 2 pedidos, pero el cliente 2 registra el mayor gasto total.
 -----------------------------------------------------------------------------
