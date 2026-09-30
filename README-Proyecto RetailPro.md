@@ -11,12 +11,12 @@ Cada módulo agrega nuevas consultas y funcionalidades sobre la misma base.
 ## Entregas incluidas
 
 ### 📍 M3 - Creación de la base
-- Archivo: `src/ventas_tech_db.sql`
+- Archivo: `m3_ventas_tech_db.sql`
 - Contenido: creación de la base de datos `Ventas_Tech_DB`, tablas, relaciones y carga de datos de prueba.
 - Objetivo: tener la estructura inicial para trabajar en los siguientes módulos.
 
 ### 📍 M4 - Consultas de negocio
-- Archivo: `src/m4_consultas_negocio.sql`
+- Archivo: `m4_consultas_negocio.sql`
 - Contenido: 4 consultas sobre la tabla `ventas`:
   1. Resumen ejecutivo mensual (total facturado, pedidos, ticket promedio).
   2. Ranking de productos (Top 5 por facturación).
@@ -27,9 +27,9 @@ Cada módulo agrega nuevas consultas y funcionalidades sobre la misma base.
 
 ---
 
-## Organización de carpetas
-- `src/` → scripts SQL de cada entrega.  
-- `docs/` → documentación y README de cada módulo.  
+## Organización de archivos
+- Archivos `.sql` → en la raíz del repositorio.  
+- PDFs de entregas → se subirán en carpeta `docs/` más adelante.  
 
 ---
 
