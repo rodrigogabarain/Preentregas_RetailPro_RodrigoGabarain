@@ -33,6 +33,14 @@ Cada módulo agrega nuevas consultas y funcionalidades sobre la misma base.
 - Bloque de hallazgos: comentarios finales con conclusiones sobre los resultados.
 - Objetivo: obtener métricas clave del negocio a partir de la tabla de ventas.
 
+📍 M5 - Consultas con JOINs
+- Archivo: `m5_consultas_joins.sql`
+- Contenido: 4 consultas sobre la base Ventas_Tech_DB:
+  1. **Vista base del proyecto (INNER JOIN)** → combina ventas con clientes, productos y categorías para obtener fecha,           cliente, producto, cantidad, precio unitario, total de venta y columnas descriptivas.
+  2. **Clientes sin ventas (LEFT JOIN)** → identifica clientes registrados que aún no realizaron compras, mostrando nombre,       email y fecha de registro.
+  3. **Productos sin ventas (LEFT JOIN)** → identifica productos del catálogo sin ventas, mostrando nombre del producto,          categoría y precio.
+  4. **Consolidado por canal (UNION ALL)** → separa las ventas en dos grupos de clientes (ejemplo: clientes 1–3 como              “Online” y clientes 4–5 como “Presencial”), creando la columna literal `canal` y agrupando el total por origen.
+- Objetivo: enriquecer el análisis con vistas combinadas y detectar clientes/productos sin actividad, además de consolidar ventas por canal como insumo para futuros dashboards.
 ---
 
 ## Organización de archivos
